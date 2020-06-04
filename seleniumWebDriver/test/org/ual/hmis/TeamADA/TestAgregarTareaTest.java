@@ -31,7 +31,7 @@ public class TestAgregarTareaTest {
   JavascriptExecutor js;
   @Before
   public void setUp() {
-	  System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
+	  //System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
 	  FirefoxOptions firefoxOptions = new FirefoxOptions();
 	  firefoxOptions.setHeadless(true);
 	  driver = new FirefoxDriver();
