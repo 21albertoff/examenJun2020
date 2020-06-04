@@ -11,7 +11,7 @@ pipeline {
         stage('Git clone') {
             steps{
                 // Update the URL to your repo
-                git 'https://github.com/Dor494/seleniumWebDriverJUnit.git'
+                git 'https://github.com/21albertoff/examenJun2020.git'
             }
         }
         stage('Firefox tests') {
